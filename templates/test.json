@@ -1,0 +1,24 @@
+
+
+{
+  "announcement": {
+    "message": "通知信息",
+    "description": ""
+  },
+
+  "close": {
+    "message": "关闭",
+    "description": "关闭窗口等"
+  },
+
+  "systemAnnouncement": {
+    "message": "优学院专有名词翻译",
+    "description": "优学院专有名词翻译"
+  },
+
+  "test": {
+    "message": "优学院",
+    "description": "test"
+    }
+}
+
