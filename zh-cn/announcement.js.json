@@ -1,0 +1,18 @@
+{
+  "root": {
+    "announcement": "anuncio",
+    "close": "apagar",
+    "schoolAnnouncement": "anuncio de la escuela",
+    "systemAnnouncement": "anuncio del sistema",
+    "publishedIn": "se pulica en",
+    "download": "descargar",
+    "fold": "guardar",
+    "unfold": "expandir",
+    "noAnnouncement": "no hay anuncio temporal",
+    "homePage": "primera página",
+    "lastPage": "última página",
+    "frontPage": "anterior",
+    "backPage": "siguiente",
+    "jumpPage": "saltar"
+  }
+}
