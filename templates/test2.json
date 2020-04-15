@@ -1,27 +1,460 @@
-
-
 {
-    "announcement": {
-      "message": "通知信息",
+
+    "currentPosition": {
+      "mesage":"当前位置：",
       "description": ""
     },
-  
-    "close": {
-      "message": "关闭",
-      "description": "关闭窗口等"
+    "allExamPaper": {
+      "mesage":"全部试卷",
+      "description": ""
     },
-    
-    "root": {
-      "systemAnnouncement": {
-        "message": "优学院专有名词翻译",
-        "description": "优学院专有名词翻译"
-      },
-    
-      "test": {
-        "message": "优学院",
-        "description": "test"
-        }
+    "inpputExamPaperNameSearch": {
+      "mesage":"输入试卷名称搜索",
+      "description": ""
+    },
+    "addFolder": {
+      "mesage":"添加文件夹",
+      "description": ""
+    },
+    "addExamPaper": {
+      "mesage":"添加试卷",
+      "description": ""
+    },
+    "aotoGroupExamPaper": {
+      "mesage":"自动组卷",
+      "description": ""
+    },
+    "examPaperName": {
+      "mesage":"试卷名称",
+      "description": ""
+    },
+    "score": {
+      "mesage":"分数",
+      "description": ""
+    },
+    "sharingScope": {
+      "mesage":"共享范围",
+      "description": ""
+    },
+    "lastModifyTime": {
+      "mesage":"最后修改时间",
+      "description": ""
+    },
+    "operation": {
+      "mesage":"操作",
+      "description": ""
+    },
+    "personal": {
+      "mesage":"个人",
+      "description": ""
+    },
+    "schoolTeacher": {
+      "mesage":"校内老师",
+      "description": ""
+    },
+    "schoolTeacher2": {
+      "mesage":"本校老师",
+      "description": ""
+    },
+    "allTeacher": {
+      "mesage":"全体老师",
+      "description": ""
+    },
+    "allTeacher2": {
+      "mesage":"所有老师",
+      "description": ""
+    },
+    "appointTeacher": {
+      "mesage":"指定老师",
+      "description": ""
+    },
+    "modify": {
+      "mesage":"修改",
+      "description": ""
+    },
+    "move": {
+      "mesage":"移动",
+      "description": ""
+    },
+    "delete": {
+      "mesage":"删除",
+      "description": ""
+    },
+    "preview": {
+      "mesage":"预览",
+      "description": ""
+    },
+    "download": {
+      "mesage":"下载",
+      "description": ""
+    },
+    "share": {
+      "mesage":"共享",
+      "description": ""
+    },
+    "copy": {
+      "mesage":"复制",
+      "description": ""
+    },
+    "copied": {
+      "mesage":"已复制",
+      "description": ""
+    },
+    "examPaperTips1": {
+      "mesage":"没有搜索到相应的试卷",
+      "description": ""
+    },
+    "examPaperTips2": {
+      "mesage":"没有试卷，点击添加试卷按钮添加试卷",
+      "description": ""
+    },
+    "examPaperTips3": {
+      "mesage":"没有试卷",
+      "description": ""
+    },
+    "networkExceptionTips": {
+      "mesage":"网络异常，请点击",
+      "description": ""
+    },
+    "reload": {
+      "mesage":"重新加载",
+      "description": ""
+    },
+    "examPaperTips4": {
+      "mesage":"请输入文件夹名称",
+      "description": ""
+    },
+    "onlyOneSelf": {
+      "mesage":"仅自己",
+      "description": ""
+    },
+    "shareToThisUnitAppointedTeacher": {
+      "mesage":"共享给本单位指定老师",
+      "description": ""
+    },
+    "shareToThisUnitOtherTeacher": {
+      "mesage":"共享给本单位其他老师",
+      "description": ""
+    },
+    "shareToAllTeacher": {
+      "mesage":"共享给所有老师",
+      "description": ""
+    },
+    "deleteTips": {
+      "mesage":"删除提示",
+      "description": ""
+    },
+    "examPaperTips5": {
+      "mesage":"确定要删除吗？彻底删除后，文件夹下的试卷也会被一并删除，如删除的试卷被应用到其他考试中，考试将会不可用",
+      "description": ""
+    },
+    "examPaperTips6": {
+      "mesage":"保留试卷，只删除文件夹",
+      "description": ""
+    },
+    "deleteAll": {
+      "mesage":"全部删除",
+      "description": ""
+    },
+    "selectTeacher": {
+      "mesage":"选择教师",
+      "description": ""
+    },
+    "inputTeacherNameSearch": {
+      "mesage":"输入教师姓名搜索",
+      "description": ""
+    },
+    "checkAll": {
+      "mesage":"全选",
+      "description": ""
+    },
+    "achievement": {
+      "mesage":"成绩",
+      "description": ""
+    },
+    "allClass": {
+      "mesage":"全部班级",
+      "description": ""
+    },
+    "homePage": {
+      "mesage":"首页",
+      "description": ""
+    },
+    "lastPage": {
+      "mesage":"末页",
+      "description": ""
+    },
+    "frontPage": {
+      "mesage":"上页",
+      "description": ""
+    },
+    "backPage": {
+      "mesage":"下页",
+      "description": ""
+    },
+    "jumpPage": {
+      "mesage":"跳转",
+      "description": ""
+    },
+    "examPaperTips7": {
+      "mesage":"已经被使用过的试卷无法修改",
+      "description": ""
+    },
+    "examPaperTips8": {
+      "mesage":"删除后数据将无法恢复，您确定要删除吗？",
+      "description": ""
+    },
+    "deleteExamPaper": {
+      "mesage":"删除试卷",
+      "description": ""
+    },
+    "deleteSuccess": {
+      "mesage":"删除成功",
+      "description": ""
+    },
+    "deleteFailed": {
+      "mesage":"删除失败",
+      "description": ""
+    },
+    "examPaperTips9": {
+      "mesage":"试卷不存在",
+      "description": ""
+    },
+    "examPaperTips10": {
+      "mesage":"不是试卷的创建者不能删除",
+      "description": ""
+    },
+    "examPaperTips11": {
+      "mesage":"有答题记录，不能删除",
+      "description": ""
+    },
+    "examPaperTips12": {
+      "mesage":"被试卷引用，不能删除",
+      "description": ""
+    },
+    "examPaperTips13": {
+      "mesage":"需要题目解析吗？",
+      "description": ""
+    },
+    "copySuccess": {
+      "mesage":"复制成功",
+      "description": ""
+    },
+    "copyFailed": {
+      "mesage":"复制失败",
+      "description": ""
+    },
+    "modifySuccess": {
+      "mesage":"修改成功",
+      "description": ""
+    },
+    "modifyFailed": {
+      "mesage":"修改失败",
+      "description": ""
+    },
+    "createSuccess": {
+      "mesage":"创建成功",
+      "description": ""
+    },
+    "createFailed": {
+      "mesage":"创建失败",
+      "description": ""
+    },
+    "myResource": {
+      "mesage":"我的资源",
+      "description": ""
+    },
+    "schoolResource": {
+      "mesage":"本校资源",
+      "description": ""
+    },
+    "shareReource": {
+      "mesage":"共享资源",
+      "description": ""
+    },
+    "allResource": {
+      "mesage":"全部资源",
+      "description": ""
+    },
+    "inputKeywordSearch": {
+      "mesage":"输入关键字搜索",
+      "description": ""
+    },
+    "modifyShareScope": {
+      "mesage":"修改共享范围",
+      "description": ""
+    },
+    "publishToCourse": {
+      "mesage":"发布到课程",
+      "description": ""
+    },
+    "addResource": {
+      "mesage":"添加资源",
+      "description": ""
+    },
+    "addLink": {
+      "mesage":"添加链接",
+      "description": ""
+    },
+    "addRichtext": {
+      "mesage":"添加图文",
+      "description": ""
+    },
+    "resourceName": {
+      "mesage":"资源名称",
+      "description": ""
+    },
+    "uploadFile": {
+      "mesage":"上传文件",
+      "description": ""
+    },
+    "selected": {
+      "mesage":"已选择",
+      "description": ""
+    },
+    "items": {
+      "mesage":"项",
+      "description": ""
+    },
+    "cancelMultipleSelection": {
+      "mesage":"取消多选",
+      "description": ""
+    },
+    "total": {
+      "mesage":"共",
+      "description": ""
+    },
+    "number": {
+      "mesage":"个",
+      "description": ""
+    },
+    "size": {
+      "mesage":"大小",
+      "description": ""
+    },
+    "createTime": {
+      "mesage":"创建时间",
+      "description": ""
+    },
+    "publish": {
+      "mesage":"发布",
+      "description": ""
+    },
+    "resourceTips1": {
+      "mesage":"没有搜索到相应的资源",
+      "description": ""
+    },
+    "resourceTips2": {
+      "mesage":"暂无资源，点击“添加资源”去新建",
+      "description": ""
+    },
+    "folderName": {
+      "mesage":"文件夹名",
+      "description": ""
+    },
+    "uploaded": {
+      "mesage":"已上传",
+      "description": ""
+    },
+    "addTeacher2": {
+      "mesage":"添加教师",
+      "description": ""
+    },
+    "inputNameSearch": {
+      "mesage":"输入姓名搜索",
+      "description": ""
+    },
+    "resourceTips16": {
+      "mesage":"请选择要把资源发布到哪些课程：",
+      "description": ""
+    },
+    "resourceTips17": {
+      "mesage":"还没有课程，请先创建课程",
+      "description": ""
+    },
+    "save": {
+      "mesage":"保存",
+      "description": ""
+    },
+    "create": {
+      "mesage":"创建",
+      "description": ""
+    },
+    "createMicroCourse": {
+      "mesage":"创建微课",
+      "description": ""
+    },
+    "microCourseName": {
+      "mesage":"微课名称",
+      "description": ""
+    },
+    "resourceTips6": {
+      "mesage":"请输入微课名称",
+      "description": ""
+    },
+    "KnowledgePoints": {
+      "mesage":"知识点",
+      "description": ""
+    },
+    "resourceTips7": {
+      "mesage":"最多输入5个知识点，按回车键完成",
+      "description": ""
+    },
+    "resourceTips8": {
+      "mesage":"开启评论和点赞，了解更多学习反馈",
+      "description": ""
+    },
+    "resourceTips9": {
+      "mesage":"（评论详情可在微课数据统计中的“评论分析”里查看）",
+      "description": ""
+    },
+    "resourceTips10": {
+      "mesage":"练习提交后显示答案和解析",
+      "description": ""
+    },
+    "pleaseSelectTeacher": {
+      "mesage":"请选择教师",
+      "description": ""
+    },
+    "shareSuccess": {
+      "mesage":"共享成功",
+      "description": ""
+    },
+    "moveSuccess": {
+      "mesage":"移动成功",
+      "description": ""
+    },
+    "moveFailed": {
+      "mesage":"移动失败",
+      "description": ""
+    },
+    "deleteResource": {
+      "mesage":"删除资源",
+      "description": ""
+    },
+    "deleteResourceTips": {
+      "mesage":"确定删除资源？",
+      "description": ""
+    },
+    "pleaseSelectCourse": {
+      "mesage":"请选择课程",
+      "description": ""
+    },
+    "publishSuccess": {
+      "mesage":"发布成功",
+      "description": ""
+    },
+    "resourceTips11": {
+      "mesage":"微课名称不能为空",
+      "description": ""
+    },
+    "newMicroCourse": {
+      "mesage":"新建微课",
+      "description": ""
+    },
+    "recordMicroCourse": {
+      "mesage":"录制微课",
+      "description": ""
     }
-  }
-  
-  
+
+}
